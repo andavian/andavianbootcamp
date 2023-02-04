@@ -14,7 +14,7 @@ const App = (props) => {
   const voting = () => {
     const newVotes = [...votes];
     newVotes[selected] += 1;
-    console.log(newVotes);
+    clicks.console.log(newVotes);
     return setClicks(newVotes);
   };
   return (
